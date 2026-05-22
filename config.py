@@ -54,7 +54,6 @@ ROUTER_R1_INTERFACE_2 = "Interface 2"
 
 # ============================================================
 # Protocol Constants
-# These names are used by protocol.py
 # ============================================================
 
 ETHERNET_TYPE_IPV4 = 0x0800
@@ -75,7 +74,7 @@ MAX_SEGMENT_DATA_SIZE = 500
 
 # ============================================================
 # Compatibility Constants
-# These names are used by older versions of config/devices code
+# These names help older code versions still work.
 # ============================================================
 
 ETH_TYPE_IPV4 = ETHERNET_TYPE_IPV4
@@ -96,7 +95,6 @@ ETHERNET_HEADER_SIZE = L2_HEADER_SIZE
 HOST_A_PORT = 5000
 HOST_B_PORT = 80
 
-# main.py may use this name
 HOST_B_SERVICE_PORT = HOST_B_PORT
 
 
